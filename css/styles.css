@@ -62,6 +62,7 @@ body{
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .button{
     background-color: var(--buton);
@@ -71,6 +72,9 @@ body{
 .button:focus{
     background-color: var(--acttiv-cl);
     color: var(--blfon-text-cl);
+}
+.team{
+    background-color: var(--buton);
 }
 /*Текст*/
 .title{
@@ -97,8 +101,6 @@ body{
 /*Футер*/
 .footer{
     background-color: var(--bg-hat);
-}
-.footer-log{
     color: var(--blfon-text-cl);
 }
 .add-style{
@@ -108,7 +110,7 @@ body{
     color: var(--blfon-text-cl);
 }
 .add-foot{
-    color: var(--blfon-text-cl);
+    color: var(--articl-text-cl);
     font-size: 14px;
     line-height: 1.71;
 }

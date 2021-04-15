@@ -65,7 +65,8 @@ body{
     letter-spacing: 0.06em;
 }
 .button{
-    background-color: var(--buton);
+    background-color: var(--acttiv-cl);
+    color: var(--blfon-text-cl);
     cursor: pointer;
 }
 .button:hover,
@@ -111,8 +112,6 @@ body{
 }
 .add-foot{
     color: var(--articl-text-cl);
-    font-size: 14px;
-    line-height: 1.71;
 }
 .add-foot:hover,
 .add-foot:focus{
@@ -130,6 +129,10 @@ body{
 .manu-work:focus{
     background-color: var(--acttiv-cl);
     color: var(--buton);
+}
+.manu-work.all{
+    background-color: var(--acttiv-cl);
+    color: var(--blfon-text-cl);
 }
 .second-title{
     font-weight: bold;
